@@ -19,7 +19,7 @@ Primeiro é necessario ter a instalação de um servidor feito de maneira direta
 
 Realize o clone deste repositorio via git usando no seu cmd o seguinte comando:
 
-**git clone 'url'**
+**git clone https://github.com/Lucas-PB1/Desafio-Estoque.git**
 
 ### Passo 2 - Arquivo .env
 
