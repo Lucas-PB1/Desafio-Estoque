@@ -1,0 +1,199 @@
+body,
+html {
+  background-color: #212529;
+}
+#header {
+  top: 0;
+  width: 100%;
+  height: 80px;
+  color: #f1e9e9;
+  position: fixed;
+  background-color: #212529;
+  border-bottom: 1px solid white;
+}
+#header .header-title {
+  top: 15;
+  left: 10;
+  position: absolute;
+}
+#header .header-title a {
+  color: #f1e9e9;
+  text-decoration: none;
+}
+#header .btn_orange {
+  top: 15;
+  right: 10;
+  position: absolute;
+}
+#main #table-main {
+  margin-top: 80px;
+  border-color: #f1e9e9;
+}
+#main #table-main td,
+#main #table-main th {
+  padding: 20px;
+  vertical-align: middle;
+}
+#main #table-main .link-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+#main #table-main .link-buttons button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #212529;
+}
+#show {
+  display: flex;
+  margin-top: 100px;
+}
+#show #info-card {
+  color: #f1e9e9;
+  border-color: #f1e9e9;
+  background-color: #212529;
+}
+#show #info-card .card-header {
+  border-bottom: 1px solid #f1e9e9;
+}
+#show #info-card .card-body .card-text {
+  font-size: 24px;
+}
+#show #info-card .card-body .tags {
+  font-size: 14px;
+  font-style: italic;
+  font-family: Courier, monospace;
+}
+#show #info-card .card-body .tags a {
+  color: #f1e9e9;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#show #info-card .card-body .tags a:hover {
+  color: #00ffff;
+  text-decoration: underline;
+}
+#form_cad-edit {
+  margin-top: 100px;
+}
+#form_cad-edit .title-form {
+  color: #f1e9e9;
+  margin-bottom: 20px;
+}
+#form_cad-edit .input-txt {
+  margin-top: 10px;
+}
+#form_cad-edit .btn_blue {
+  padding: 12px 30px;
+  margin-top: 20px;
+  background-color: #212529;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #212529;
+}
+.page_main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_main a {
+  text-decoration: none;
+}
+.btn_orange {
+  align-self: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  background-size: 400%;
+  text-decoration: none;
+  border: 2px solid #f1620f;
+  background-position: 100%;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  background-image: linear-gradient(45deg, #f1620f 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(45deg, #f1620f 50%, transparent 50%);
+}
+.btn_orange:hover {
+  color: black;
+  background-position: 0;
+}
+.btn_blue {
+  align-self: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  background-size: 400%;
+  text-decoration: none;
+  border: 2px solid #4cb0df;
+  background-position: 100%;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  background-image: linear-gradient(45deg, #4cb0df 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(45deg, #4cb0df 50%, transparent 50%);
+}
+.btn_blue:hover {
+  color: black;
+  background-position: 0;
+}
+.btn_white {
+  align-self: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  background-size: 400%;
+  text-decoration: none;
+  border: 2px solid #c7c5c5;
+  background-position: 100%;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  background-image: linear-gradient(45deg, #c7c5c5 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(45deg, #c7c5c5 50%, transparent 50%);
+}
+.btn_white:hover {
+  color: black;
+  background-position: 0;
+}
+.btn_red {
+  align-self: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  background-size: 400%;
+  text-decoration: none;
+  border: 2px solid #e62222;
+  background-position: 100%;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  background-image: linear-gradient(45deg, #e62222 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(45deg, #e62222 50%, transparent 50%);
+}
+.btn_red:hover {
+  color: black;
+  background-position: 0;
+}
+.animated-word {
+  font-family: Helvetica;
+  letter-spacing: 0.4em;
+  font-weight: 600;
+  font-size: 100px;
+  text-align: center;
+  color: #f1e9e9;
+  cursor: pointer;
+  max-width: 600px;
+  width: 100%;
+  outline: 3px solid;
+  outline-color: #f1e9e9;
+  outline-offset: 70px;
+  transition: all 0.6s cubic-bezier(0.2, 0, 0, 0.8);
+}
+.animated-word:hover {
+  color: #f1e9e9;
+  outline-color: #f1e9e9;
+  outline-offset: 200px;
+}
+

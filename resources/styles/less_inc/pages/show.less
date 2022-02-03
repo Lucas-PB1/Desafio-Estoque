@@ -1,0 +1,33 @@
+@import url('../components/variables.less');
+
+#show{
+    display: flex;
+    margin-top: 100px;
+    #info-card{
+        color: @text;
+        border-color: @borders;
+        background-color: @background;
+        .card-header{
+            border-bottom: 1px solid @borders;
+        }
+        .card-body{
+            .card-text{
+                font-size: 24px;
+            }
+            .tags{
+                font-size: 14px;
+                font-style: italic;
+                font-family: Courier, monospace;
+                a{
+                    color: @text;
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        color: #00ffff;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

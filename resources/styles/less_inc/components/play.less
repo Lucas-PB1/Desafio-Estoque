@@ -1,0 +1,23 @@
+@import url('./variables.less');
+
+.animated-word {
+	font-family: Helvetica;
+	letter-spacing: 0.4em;
+	font-weight: 600;
+	font-size: 100px;
+	text-align: center;
+	color: @text;
+    cursor: pointer;
+    max-width: 600px; 
+    width: 100%; 
+    outline: 3px solid;
+    outline-color: @text;
+    outline-offset: 70px;
+    transition: all 0.6s cubic-bezier(0.2, 0, 0, 0.8);
+    &:hover {
+      color: @text;
+      outline-color: @borders;
+      outline-offset: 200px;
+    }
+}
+
